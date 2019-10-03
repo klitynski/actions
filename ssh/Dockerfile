@@ -10,7 +10,7 @@ LABEL "com.github.actions.icon"="server"
 LABEL "com.github.actions.color"="orange"
 
 RUN apt-get update && apt-get install -y \
-  openssh-client && \
+  openssh-client git && \
   rm -Rf /var/lib/apt/lists/*
 
 

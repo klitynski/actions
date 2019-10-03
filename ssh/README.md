@@ -12,7 +12,7 @@ To use the action simply add the following lines to your `.github/main.workflow`
 
 ```
 action "Run deploy script" {
-  uses = "maddox/actions/ssh@master"
+  uses = "klitynski/actions/ssh@master"
   args = "/opt/deploy/run"
   secrets = [
     "PRIVATE_KEY",
